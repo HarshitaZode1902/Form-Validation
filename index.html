@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form-Validation</title>
+    <script src="./script.js"></script>
+</head>
+<body style="background-color: rgb(244, 234, 236);font-size: 20px;border: 4px double black;padding-left: 10px;width: 30%;">
+    <p style="text-align: center;">Registration Form</p>
+    <form name="myform" onsubmit="return validateform() " >
+        <label for="fname" >First Name : </label><br>
+        <input name="fname" type="text" id="fname" placeholder="First name">
+    
+    <br>
+    <br>
+        <label for="lname" >Last Name : </label><br>
+        <input name="lname" type="text" id="lname" placeholder="Last name">
+    
+    <br>
+    <br>
+        <label for="id" >Email id   : </label><br>
+        <input name="email" type="email" id="id" placeholder="Email id">
+    
+    <br>
+    <br>
+        <label for="password" >Password : </label><br>
+        <input name="password" type="password" id="password" placeholder="Enter password">
+    
+    <br>
+    <br>
+        <label for="phone" >Mobile No. : </label><br>
+        <input name="phone" type="text" id="phone" placeholder="Mobile No">
+    
+    <br>
+    <br>
+        <label for="add" >Address : </label><br>
+        <textarea name="address" type="text" id="add" placeholder="Address" rows="4"></textarea>
+        <br>
+        <br>
+    <input type="submit" value="register" style="background-color: rgb(13, 60, 13);color:white;height: 40px;width: 90px;"> 
+</form>
+    <br><br>
+</body>
+
+</html>
